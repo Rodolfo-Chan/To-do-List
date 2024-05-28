@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+input {
+  padding: 0.5rem;
+  width: 170px;
+  margin-right: 5rem;
+  background-color: #f0f0f0; /* Color de fondo */
+  color: #333; /* Color del texto */
+  border: 1px solid #ccc; /* Borde del input */
+  border-radius: 4px; /* Esquinas redondeadas */
+}
+
+input:focus {
+  outline: none; /* Elimina el contorno azul predeterminado en Chrome */
+  border-color: #0b00a3; /* Color del borde al enfocar */
+  background-color: #e0f5ff; /* Color de fondo al enfocar */
+}
+button {
+  padding: 0.5rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 8;
+}
+
+li {
+  margin: 4rem 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+button {
+  margin-left: 1rem;
+}
+.card {
+  /* Dimensiones y espaciado */
+  width: 300px; /* Ancho fijo de la tarjeta */
+  padding: 20px; /* Espaciado interno */
+  margin: 20px; /* Espaciado externo */
+
+  /* Estilo de fondo y borde */
+  background-color: #ffffff; /* Fondo blanco */
+  border: 1px solid #e0e0e0; /* Borde delgado y gris claro */
+  border-radius: 8px; /* Bordes redondeados */
+
+  /* Sombra para dar efecto de elevación */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+
+  /* Fuente y alineación del texto */
+  font-family: Arial, sans-serif; /* Fuente */
+  color: #333333; /* Color del texto */
+  text-align: center; /* Texto centrado */
+
+  /* Efecto de transición para interacciones */
+  transition: transform 0.2s, box-shadow 0.2s; 
+}
+
+.card:hover {
+  /* Efectos al pasar el ratón por encima */
+  transform: translateY(-5px); 
+  box-shadow: 0 8px 16px rgba(1, 702, 555, 0.2); 
+}
+:root {
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #050035;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+a {
+  font-weight: 500;
+  color: #646cff;
+  text-decoration: inherit;
+}
+a:hover {
+  color: #535bf2;
+}
+
+body {
+  margin: 0;
+  display: flex;
+  place-items: center;
+  min-width: 320px;
+  min-height: 100vh;
+}
+
+h1 {
+  font-size: 3.2em;
+  line-height: 1.1;
+}
+
+button {
+  border-radius: 8px;
+  border: 1px solid transparent;
+  padding: 0.6em 1.2em;
+  font-size: 1em;
+  font-weight: 500;
+  font-family: inherit;
+  background-color: #00570c;
+  cursor: pointer;
+  transition: border-color 0.25s;
+}
+button:hover {
+  border-color: #646cff;
+}
+button:focus,
+button:focus-visible {
+  outline: 4px auto -webkit-focus-ring-color;
+}
+
+@media (prefers-color-scheme: light) {
+  :root {
+    color: #213547;
+    background-color: #ffffff;
+  }
+  a:hover {
+    color: #747bff;
+  }
+  button {
+    background-color: #f9f9f9;
+  }
+}
+
+
+.card button {
+  background-color: #c41414; /* Color de fondo */
+  color: white; /* Color del texto */
+  border: none; /* Elimina el borde */
+  padding: 10px 20px; /* Espacio alrededor del texto */
+  text-align: center; /* Alinea el texto al centro */
+  text-decoration: none; /* Elimina subrayado */
+  display: inline-block; /* Muestra el botón como un elemento de línea */
+  cursor: pointer; /* Cambia el cursor al pasar sobre el botón */
+  border-radius: 5px; /* Añade bordes redondeados */
+  transition: background-color 0.3s; /* Efecto de transición suave */
+}
+
+.card button:hover {
+  background-color: #8f0303; /* Cambia el color de fondo al pasar el ratón */
+}
+
+
+.date {
+  margin-left: 15px;
+  font-size: 0.9em;
+  color: #454c58;
+}
+
+
+.activiti{
+  color: #000000;
+
+}
